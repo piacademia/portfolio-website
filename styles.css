@@ -1,0 +1,31 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav > ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    margin-right: 30px;
+}
+nav > h3{
+    font-weight: 800;
+    margin-left: 20px;
+}
+.name{
+    color: darkorange;
+}
+.btn-color{
+    background-color: darkorange;
+}
+button{
+    border-radius: 5px;
+    color: white;
+    border-color: darkorange;
+    padding: 9px 15px;
+}
